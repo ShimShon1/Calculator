@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    padding: 0px;
+    background-image: linear-gradient(160deg, white 30%, rgb(50, 80, 150) 100%) ;
+    overflow: hidden;
+}
+
+
+main{
+    height:75vh;
+    width: 28%;
+    margin:5% auto;
+    background-color: rgba(178, 228, 213, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    padding: 0.5%;
+    padding-top: 0;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 3px;
+    
+}
+
+.screen{
+    margin: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+    height:15%;
+    background-color: rgba(255, 255, 255, 0.473);
+    margin-bottom: -15%;
+    box-shadow: 0.5px 0.5px 0.5px 1px rgb(163, 161, 161);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+
+}
+.btns-main{
+    margin: 0;
+    width: 100%;
+    height: 70%;
+    margin-bottom: -7%;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+    grid-template-areas: 
+    
+
+    "clear mod divide multi"
+    "seven eight nine sub"
+    "four five six add"
+    "one two three equal"
+    "zero zero dot equal"
+    
+    
+    
+    ;
+
+    gap: 2%;
+}
+
+.btn{
+    background-color: rgb(191, 210, 211);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    box-shadow: 0.5px 0.5px 0.5px 1.2px rgb(163, 161, 161);
+    border-radius: 8px;
+    
+}
+
+
+.add{
+    grid-area: add;
+    
+}
+
+.sub{
+    grid-area: sub;
+}
+
+.multi{
+    grid-area: multi;
+}
+
+.divide{
+    grid-area: divide;
+}
+
+.dot{
+    grid-area: dot;
+}
+
+.modulo{
+    grid-area: mod;
+}
+
+.equal{
+    grid-area: equal;
+
+}
+
+.clear{
+    grid-area: clear;
+    background-color: rgb(255, 210, 211);
+}
+
+.operator{
+    background-color: rgb(233, 227, 227);
+}
+
+
+
+
+
+
+
+.zero{
+    grid-area: zero;
+}
+
+
+.one{
+    grid-area: one;
+}
+
+
+.two{
+    grid-area: two;
+}
+
+
+.three{
+    grid-area: three;
+}
+
+
+.four{
+    grid-area: four;
+}
+
+
+.five{
+    grid-area: five;
+}
+
+
+.six{
+    grid-area: six;
+}
+
+
+.seven{
+    grid-area: seven;
+}
+
+
+.eight{
+    grid-area: eight;
+}
+
+
+.nine{
+    grid-area: nine;
+}
