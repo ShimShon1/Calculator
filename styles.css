@@ -307,4 +307,8 @@ main .dark-op{
         margin-top: 3%;
         gap: 20px;
       }
+
+    img{
+        width: 60px;
+    }
   }
