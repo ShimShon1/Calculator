@@ -296,3 +296,15 @@ main .dark-op{
     border-radius: 50%;
   }
 
+  @media screen and (max-width: 800px) {
+    main{
+      width: 70%;
+    }
+    .mode-change{
+     
+        top: 80%;
+        left: 50%;
+        margin-top: 3%;
+        gap: 20px;
+      }
+  }
