@@ -25,6 +25,11 @@ let img = document.querySelector("img")
 for (let num = 0; num < numberBtns.length; num++) {
     numberBtns[num].addEventListener("click",
         function(){
+            if (numberBtns[num].textContent == "."){
+                if (addTo.includes(".")){
+                    return false
+                }
+            }
            calcNums.textContent += numberBtns[num].textContent
             addTo += numberBtns[num].textContent
             currentNumbers.textContent = addTo
@@ -127,21 +132,21 @@ function operate(a,b,oper){
 }
 
 //operations 
-function add(a,b){
-    return a + b
-}
+// function add(a,b){
+//     return a + b
+// }
 
-function substract(a,b){
-    return a - b
-}
+// function substract(a,b){
+//     return a - b
+// }
 
-function multiply(a,b){
-    return a * b
-}
+// function multiply(a,b){
+//     return a * b
+// }
 
-function divide(a,b){
-    return a / b
-}
+// function divide(a,b){
+//     return a / b
+// }
 
 
 
